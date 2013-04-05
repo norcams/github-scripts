@@ -1,0 +1,19 @@
+{
+    "name": "irc",
+    "active": true,
+    "events": [
+        "issues",
+        "push",
+        "pull_request"
+    ],
+    "config": {
+        "server": "irc.mozilla.org",
+        "port": "6697",
+        "room": "#servo",
+        "nick": "ghservo",
+        "ssl": "1",
+        "message_without_join": "0",
+        "no_colors": "0",
+        "notice": "0"
+    }
+}
