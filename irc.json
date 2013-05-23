@@ -3,17 +3,25 @@
     "active": true,
     "events": [
         "issues",
+        "issue_comment",
+        "fork",
+        "watch",
         "push",
-        "pull_request"
+        "create",
+        "delete",
+        "commit_comment",
+        "pull_request",
+        "pull_request_review_comment"
     ],
     "config": {
-        "server": "irc.mozilla.org",
-        "port": "6697",
-        "room": "#servo",
-        "nick": "ghservo",
-        "ssl": "1",
-        "message_without_join": "0",
+        "server": "chat.freenode.net",
+        "port": "6667",
+        "room": "#CHANGEME",
+        "nick": "[GH]",
+        "ssl": "0",
+        "message_without_join": "1",
         "no_colors": "0",
+        "long_url": "1",
         "notice": "0"
     }
 }
