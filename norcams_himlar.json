@@ -1,0 +1,23 @@
+{
+    "name": "irc",
+    "active": true,
+    "events": [
+        "issues",
+        "issue_comment",
+        "push",
+        "commit_comment",
+        "pull_request",
+        "pull_request_review_comment"
+    ],
+    "config": {
+        "server": "chat.freenode.net",
+        "port": "7000",
+        "room": "#uh-sky",
+        "nick": "norcams",
+        "ssl": "0",
+        "message_without_join": "1",
+        "no_colors": "0",
+        "long_url": "1",
+        "notice": "0"
+    }
+}
