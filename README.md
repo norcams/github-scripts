@@ -1,4 +1,5 @@
-github-ircnotify
-================
+github-scripts
+==============
 
-Our IRC notify setup
+Simple scripts to update/automate our github organization config
+

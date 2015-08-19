@@ -2,6 +2,8 @@
     "name": "irc",
     "active": true,
     "events": [
+        "fork",
+        "watch",
         "issues",
         "issue_comment",
         "push",
@@ -13,7 +15,7 @@
         "server": "chat.freenode.net",
         "port": "7000",
         "room": "#uh-sky",
-        "nick": "norcams",
+        "nick": "[github]",
         "ssl": "1",
         "message_without_join": "1",
         "no_colors": "0",
