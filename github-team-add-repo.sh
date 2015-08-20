@@ -1,12 +1,12 @@
 #!/bin/bash -eu
 
 nocmd() {
-  echo "You need $0 to run this .."
+  echo "You need $1 to run this .."
   exit 1
 }
 
 syntax() {
-  echo "Usage: $0 <norcams> <team> <repo_name> [<repo_name>..]"
+  echo "Usage: $0 <org> <team> <repo_name> [<repo_name>..]"
   exit 1
 }
 
