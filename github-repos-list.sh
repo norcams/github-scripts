@@ -1,7 +1,7 @@
 #!/bin/bash -eu
 
 nocmd() {
-  echo "You need $0 to run this .."
+  echo "You need $1 to run this .."
   exit 1
 }
 

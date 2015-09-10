@@ -46,7 +46,7 @@ for repo_config in $repos; do
   # field 2 is the json data file, if present
   jsonfile_config=$(echo "${repo_config}" | awk '{ print $2 }')
   # if jsonfile_config is null, assign default.json as jsonfile value
-  jsonfile="${jsonfile_config:-default.json}"
+  jsonfile="${jsonfile_config:-github-hooks.default}"
   echo "user = ${username}:${password}" | curl -H "X-GitHub-OTP: ${otp}" -i -X POST -K - "https://api.github.com/repos/${name}/hooks" --data "@${jsonfile}"
 done
 
